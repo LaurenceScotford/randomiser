@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	width: 320px;
+	text-align:center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #254F69;
+}
+
+#instr
+{
+	text-align:left;
+}
+
+#randout
+{
+	font-size:xx-large;
+	margin-top:6px;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Randomiser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<script
+  	src="https://code.jquery.com/jquery-2.2.4.min.js"
+  	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  	crossorigin="anonymous"></script>
+		<script src= "js/randomiser.js" type= "text/javascript" charset= "utf-8"></script>
+  	<link rel="stylesheet" type="text/css" href="css/randomiser.css" />
+</head>
+
+<body>
+	<h1>The Randomiser</h1>
+    <p>Min: <input id="randmin" type="number" value="1" /></p>
+    <p>Max: <input id="randmax" type="number" value="6" /></p>
+    <button id="randroll">Roll</button>
+    <div id="randout"></div>
+    <p id="instr">The randomiser defaults to emulating a six sided die. Just use the Roll button to roll a new number. You can also enter different ranges, e.g.:<br /> Min: -2, Max: 3 will generate a random number from the set: -2, -1, 0, 1, 2, 3<br />Note that the randomiser works with whole numbers. Anything you enter after the decimal point will be ignored.</p>
+</body>
+</html>
